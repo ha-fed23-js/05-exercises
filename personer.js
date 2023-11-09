@@ -8,7 +8,7 @@ let personer = [
 	{ firstname: 'Grace', surname: 'Anderson', age: 32, city: 'Sheffield' },
 	{ firstname: 'Henry', surname: 'Jones', age: 29, city: 'Bristol' },
 	{ firstname: 'Ivy', surname: 'Miller', age: 26, city: 'Nottingham' },
-	{ firstname: 'Jack', surname: 'Wilson', age: 31, city: 'Leicester' },
+	{ firstname: 'Jack', surname: 'Wilson', age: 31, city: 'Liverpool' },
 	{ firstname: 'Katie', surname: 'Davis', age: 24, city: 'Oxford' },
 	{ firstname: 'Leo', surname: 'Moore', age: 23, city: 'Cambridge' },
 	{ firstname: 'Mia', surname: 'Harris', age: 33, city: 'Southampton' },
@@ -41,3 +41,11 @@ let over30Simpler = over30.map(user => ({
 }))
 
 console.log(over30Simpler);
+
+// Vilka bor i Liverpool?
+// Ge mig första personen som bor i Liverpool
+let allLiverpool = modified.filter(player => player.city === 'Liverpool')
+console.log(allLiverpool);
+
+let oneFromLiverpool = modified.find(player => player.city === 'Liverpool')
+console.log('Found player from Liverpool: ', oneFromLiverpool);
