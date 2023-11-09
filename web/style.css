@@ -1,0 +1,17 @@
+.color {
+	background-color: #D6BDF0;
+	padding: 1em;
+	border-radius: 1em;
+	transition: 1s background-color;
+}
+.color.alternative {
+	background-color:#ade4a4;
+}
+.align-right {
+	/* border: 5px dotted hotpink; */
+	display: flex;
+	justify-content: flex-end;
+}
+#colorButton {
+	padding: 0.4em 1.2em;
+}
