@@ -28,5 +28,28 @@ const numbers = [
 	682, 198, 543, 906, 112, 675, 257, 803
 ];
 
+var words = [
+	"elephant happy banana",
+	"flower dog jazz",
+	"cherry grape ice cream",
+	"apple happy jazz",
+	"dog grape cherry",
+	"banana ice cream flower",
+	"jazz cherry banana",
+	"happy dog apple",
+	"flower grape jazz",
+	"banana apple cherry",
+	"dog ice cream happy",
+	"jazz cherry flower",
+	"apple banana ice cream",
+	"grape flower happy",
+	"cherry dog jazz",
+	"ice cream apple grape",
+	"banana cherry dog",
+	"jazz grape flower",
+	"happy ice cream banana",
+	"dog apple cherry"
+];
 
-export { personer, numbers }
+
+export { personer, numbers, words }
