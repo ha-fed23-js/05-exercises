@@ -21,4 +21,12 @@ const personer = [
 	{ firstname: 'Tom', surname: 'Johnson', age: 40, city: 'Dundee' }
 ];
 
-export { personer }
+const numbers = [
+	512, 245, 789, 31, 954, 128, 420, 701,
+	83, 267, 602, 150, 837, 462, 975, 74,
+	321, 888, 195, 589, 409, 776, 34, 913,
+	682, 198, 543, 906, 112, 675, 257, 803
+];
+
+
+export { personer, numbers }
