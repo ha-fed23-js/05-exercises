@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "05-exercises",
+  "version": "1.0.0",
+  "main": "4.1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ha-fed23-js/05-exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ha-fed23-js/05-exercises/issues"
+  },
+  "homepage": "https://github.com/ha-fed23-js/05-exercises#readme",
+  "description": ""
+}
